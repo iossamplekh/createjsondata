@@ -4,10 +4,12 @@ import UIKit
 
 let jsonDict = [
     "newsObj" : [
-                "name":"nameValue"
+                "name":"nameValue",
+                "newsTypeDesEn":"newsTypeValue",
+                "desEn":"desEnValue"
                 ],
     "newsTypeObj" : [
-                "name":"nameValue"
+                "desEn":"desEnValue"
                 ],
     "authorObj" : [
                 "name":"nameValue"
