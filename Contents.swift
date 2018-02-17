@@ -8,11 +8,11 @@ let jsonDict = [
                 "newsTypeDesEn":"newsTypeValue",
                 "desEn":"desEnValue"
                 ],
-    "newsTypeObj" : [
-                "desEn":"desEnValue"
+    "newsTypeObj" :[
+                "desEn":["desEnValue","desEnValue2","desEnValue3"]
                 ],
     "authorObj" : [
-                "name":"nameValue"
+                "name":["nameValue","nameValue2","nameValue3"]
             ]
     ] as [String : Any]
 if JSONSerialization.isValidJSONObject(jsonDict) {
